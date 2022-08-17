@@ -14,6 +14,7 @@ export type FlipCardProps = {
   onFlipEnd?: (index: number) => void;
   onFlipStart?: (index: number) => void;
   perspective?: number;
+  children?: React.ReactNode | JSX.Element;
 };
 
 declare class FlipCard extends Component<FlipCardProps> {
